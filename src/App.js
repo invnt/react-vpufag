@@ -139,7 +139,7 @@ export default function App() {
                       aria-expanded="false"
                       aria-controls="flush-collapseTwo"
                     >
-                      #2 Why use Stackblitz
+                      #2 Setup
                     </button>
                   </h2>
                   <div
@@ -167,6 +167,9 @@ export default function App() {
                       >
                         <span class="badge bg-secondary">watch video</span>
                       </a>
+                      <br></br>
+                      We are going to be using React as our Java Script front
+                      end framework for development <br></br>
                     </div>
                   </div>
                 </div>
