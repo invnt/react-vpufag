@@ -78,8 +78,10 @@ export default function App() {
       <div class="container-fluid ">
         <div class="card">
           <div class="card-header">
-            <p class="card-title">Tools and Setup</p>
-
+            <p class="card-title">
+              <span class="badge bg-secondary">ROOKIE * 500 POINTS</span>
+            </p>
+            <span class="badge bg-secondary"></span>
             <ul class="nav nav-tabs card-header-tabs" data-bs-tabs="tabs">
               <li class="nav-item">
                 <a
@@ -88,12 +90,12 @@ export default function App() {
                   data-bs-toggle="tab"
                   href="#dhcp"
                 >
-                  Stackblitz
+                  Level one
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" data-bs-toggle="tab" href="#static">
-                  Browser
+                  Level Two
                 </a>
               </li>
             </ul>
@@ -112,7 +114,7 @@ export default function App() {
                       aria-expanded="false"
                       aria-controls="flush-collapseOne"
                     >
-                      #1 Create Stackblitz Account
+                      #1 Project Requirements
                     </button>
                   </h2>
                   <div
@@ -122,16 +124,8 @@ export default function App() {
                     data-bs-parent="#accordionFlushExample"
                   >
                     <div class="accordion-body">
-                      <h5>
-                        We are going to be using Stackblitz as an IDE for
-                        Development &nbsp;
-                        <a href="https://stackblitz.com/" target="_blank">
-                          <span class="badge bg-secondary">
-                            {' '}
-                            Create a Stackblitz Account
-                          </span>
-                        </a>
-                      </h5>
+                      User Stories <br></br>
+                      1. I as a user will like to log on to a System securely.
                     </div>
                   </div>
                 </div>
@@ -155,17 +149,24 @@ export default function App() {
                     data-bs-parent="#accordionFlushExample"
                   >
                     <div class="accordion-body">
-                      <h5>
-                        Stackblitz is a browser based IDE that contains
-                        preconfigured development stacks and is closer to VS
-                        Code &nbsp;
-                        <a
-                          href="https://www.youtube.com/watch?v=sPXtu-_4gRo"
-                          target="_blank"
-                        >
-                          <span class="badge bg-secondary">watch video</span>
-                        </a>
-                      </h5>
+                      We are going to be using Stackblitz as an IDE for
+                      Development &nbsp;
+                      <a href="https://stackblitz.com/" target="_blank">
+                        <span class="badge bg-secondary">
+                          {' '}
+                          Create a Stackblitz Account
+                        </span>
+                      </a>
+                      <br></br>
+                      Stackblitz is a browser based IDE that contains
+                      preconfigured development stacks and is closer to VS Code
+                      in nature &nbsp;
+                      <a
+                        href="https://www.youtube.com/watch?v=sPXtu-_4gRo"
+                        target="_blank"
+                      >
+                        <span class="badge bg-secondary">watch video</span>
+                      </a>
                     </div>
                   </div>
                 </div>
