@@ -75,143 +75,79 @@ export default function App() {
           </div>
         </div>
       </nav>
-      <div class="container-fluid ">
-        <div class="card">
-          <div class="card-header">
-            <p class="card-title">
-              <span class="badge bg-secondary">ROOKIE * 500 POINTS</span>
-            </p>
-            <span class="badge bg-secondary"></span>
-            <ul class="nav nav-tabs card-header-tabs" data-bs-tabs="tabs">
+
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-sm-4">
+            <ul class="nav nav-pills flex-column">
               <li class="nav-item">
-                <a
-                  class="nav-link active"
-                  aria-current="true"
-                  data-bs-toggle="tab"
-                  href="#dhcp"
-                >
-                  Level one
+                <a class="nav-link" href="#">
+                  Link
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#static">
-                  Level Two
+                <a class="nav-link" href="#">
+                  Link
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  Disabled
                 </a>
               </li>
             </ul>
+            <hr class="d-sm-none"></hr>
           </div>
-          <form class="card-body tab-content">
-            <div class="tab-pane active" id="dhcp">
-              <p class="card-text"></p>
-              <div class="accordion accordion-flush" id="accordionFlushExample">
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="flush-headingOne">
-                    <button
-                      class="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#flush-collapseOne"
-                      aria-expanded="false"
-                      aria-controls="flush-collapseOne"
-                    >
-                      #1 Project Requirements
-                    </button>
-                  </h2>
-                  <div
-                    id="flush-collapseOne"
-                    class="accordion-collapse collapse"
-                    aria-labelledby="flush-headingOne"
-                    data-bs-parent="#accordionFlushExample"
-                  >
-                    <div class="accordion-body">
-                      User Stories <br></br>
-                      1. I as a user will like to log on to a System securely.
-                    </div>
+          <div class="col-sm-8">
+            <h2>ROOKIE</h2>
+            <p>* 500 POINTS</p>
+
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">
+                      With supporting text below as a natural lead-in to
+                      additional content.
+                    </p>
+                    <a href="#" class="btn btn-primary">
+                      Go somewhere
+                    </a>
                   </div>
                 </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="flush-headingTwo">
-                    <button
-                      class="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#flush-collapseTwo"
-                      aria-expanded="false"
-                      aria-controls="flush-collapseTwo"
-                    >
-                      #2 Setup
-                    </button>
-                  </h2>
-                  <div
-                    id="flush-collapseTwo"
-                    class="accordion-collapse collapse"
-                    aria-labelledby="flush-headingTwo"
-                    data-bs-parent="#accordionFlushExample"
-                  >
-                    <div class="accordion-body">
-                      We are going to be using Stackblitz as an IDE for
-                      Development &nbsp;
-                      <a href="https://stackblitz.com/" target="_blank">
-                        <span class="badge bg-secondary">
-                          {' '}
-                          Create a Stackblitz Account
-                        </span>
-                      </a>
-                      <br></br>
-                      Stackblitz is a browser based IDE that contains
-                      preconfigured development stacks and is closer to VS Code
-                      in nature &nbsp;
-                      <a
-                        href="https://www.youtube.com/watch?v=sPXtu-_4gRo"
-                        target="_blank"
-                      >
-                        <span class="badge bg-secondary">watch video</span>
-                      </a>
-                      <br></br>
-                      We are going to be using React as our Java Script front
-                      end framework for development <br></br>
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="flush-headingThree">
-                    <button
-                      class="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#flush-collapseThree"
-                      aria-expanded="false"
-                      aria-controls="flush-collapseThree"
-                    >
-                      #3 First React App on Stackblitz
-                    </button>
-                  </h2>
-                  <div
-                    id="flush-collapseThree"
-                    class="accordion-collapse collapse"
-                    aria-labelledby="flush-headingThree"
-                    data-bs-parent="#accordionFlushExample"
-                  >
-                    <div class="accordion-body">
-                      <h5>
-                        Start a preconfigured React App on&nbsp;
-                        <a
-                          href="https://stackblitz.com/edit/react-nmxrbm?file=src%2FApp.js"
-                          target="_blank"
-                        >
-                          <span class="badge bg-secondary">
-                            start React App
-                          </span>
-                        </a>
-                      </h5>
-                    </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">
+                      With supporting text below as a natural lead-in to
+                      additional content.
+                    </p>
+                    <a href="#" class="btn btn-primary">
+                      Go somewhere
+                    </a>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="tab-pane" id="static"></div>
-          </form>
+            <h2 class="mt-5">TITLE HEADING</h2>
+            <h5>Title description, Sep 2, 2020</h5>
+            <div class="fakeimg">Fake Image</div>
+            <p>Some text..</p>
+            <p>
+              Sunt in culpa qui officia deserunt mollit anim id est laborum
+              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+              labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+              nostrud exercitation ullamco.
+            </p>
+          </div>
         </div>
+      </div>
+
+      <div class="mt-5 p-4 bg-dark text-white text-center">
+        <p>Footer</p>
       </div>
     </div>
   );
