@@ -146,8 +146,8 @@ export default function App() {
         </div>
       </div>
 
-      <div class="mt-5 p-4 bg-dark text-white text-center">
-        <p>Footer</p>
+      <div class="mt-5 p-4 navbar-light bg-light text-center">
+        <p>xplabs</p>
       </div>
     </div>
   );
