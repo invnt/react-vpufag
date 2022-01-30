@@ -23,16 +23,6 @@ export default function App() {
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">
-                  Home
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  Log out
-                </a>
-              </li>
               <li class="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle"
@@ -42,7 +32,7 @@ export default function App() {
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Dropdown
+                  Main Menu
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
@@ -56,11 +46,8 @@ export default function App() {
                     </a>
                   </li>
                   <li>
-                    <hr class="dropdown-divider"></hr>
-                  </li>
-                  <li>
                     <a class="dropdown-item" href="#">
-                      Something else here
+                      Logout
                     </a>
                   </li>
                 </ul>
@@ -79,29 +66,13 @@ export default function App() {
       <div class="container mt-5">
         <div class="row">
           <div class="col-sm-4">
-            <ul class="nav nav-pills flex-column">
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  Link
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  Link
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  Disabled
-                </a>
-              </li>
-            </ul>
             <hr class="d-sm-none"></hr>
           </div>
           <div class="col-sm-8">
-            <h2>ROOKIE</h2>
-            <p>* 500 POINTS</p>
-
+            <h2 class="mt-5">Project Kick off</h2>
+            <h5>Rookie</h5>
+            <div class="fakeimg">* 500 Points</div>
+            <p></p>
             <div class="row">
               <div class="col-sm-6">
                 <div class="card">
@@ -132,16 +103,6 @@ export default function App() {
                 </div>
               </div>
             </div>
-            <h2 class="mt-5">TITLE HEADING</h2>
-            <h5>Title description, Sep 2, 2020</h5>
-            <div class="fakeimg">Fake Image</div>
-            <p>Some text..</p>
-            <p>
-              Sunt in culpa qui officia deserunt mollit anim id est laborum
-              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-              labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-              nostrud exercitation ullamco.
-            </p>
           </div>
         </div>
       </div>
