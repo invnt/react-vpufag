@@ -66,10 +66,15 @@ export default function App() {
       <div class="container mt-5">
         <div class="row">
           <div class="col-sm-4">
-            <ul class="nav nav-pills flex-column">
+            <ul class="nav nav-pills flex-column bg-light">
               <li class="nav-item">
-                <a class="nav-link active" href="#">
-                  Active
+                <a class="nav-link" href="#">
+                  Link
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  Link
                 </a>
               </li>
               <li class="nav-item">
@@ -83,8 +88,13 @@ export default function App() {
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled" href="#">
-                  Disabled
+                <a class="nav-link" href="#">
+                  Link
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  Link
                 </a>
               </li>
             </ul>
