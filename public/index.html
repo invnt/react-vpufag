@@ -10,4 +10,22 @@
   let token1 = token.replace("b'", '');
   let token2 = token1.replace("'", '');
   console.log(token2);
+  var data = JSON.stringify({ token: token2 });
+
+  var xhr = new XMLHttpRequest();
+  xhr.withCredentials = true;
+
+  xhr.addEventListener('readystatechange', function () {
+    if (this.readyState === 4) {
+      console.log(this.responseText);
+    }
+  });
+
+  xhr.open(
+    'POST',
+    'http://ec2-3-144-225-106.us-east-2.compute.amazonaws.com/check_token'
+  );
+  xhr.setRequestHeader('Content-Type', 'application/json');
+
+  xhr.send(data);
 </script>
