@@ -7,6 +7,6 @@
     req.send(null);
     var headers = req.getAllResponseHeaders().toLowerCase();
     alert(headers);
-    alert('HEADER ' + response.headers.get('Authorization'));
+    alert('HEADER ' + headers.get('Authorization'));
   });
 </script>
