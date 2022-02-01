@@ -4,5 +4,7 @@
   var url_string = window.location.href; //window.location.href
   var url = new URL(url_string);
   var ref = url.searchParams.get('ref');
-  alert(ref);
+  var decodedref = atob(ref);
+  alert(decodedref);
+
 </script>
