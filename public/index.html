@@ -21,10 +21,7 @@
     }
   });
 
-  xhr.open(
-    'POST',
-    'http://ec2-3-144-225-106.us-east-2.compute.amazonaws.com/check_token'
-  );
+  xhr.open('POST', 'https://logan007005.pythonanywhere.com/Check_Token');
   xhr.setRequestHeader('Content-Type', 'application/json');
 
   xhr.send(data);
