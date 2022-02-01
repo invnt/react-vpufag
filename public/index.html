@@ -1,2 +1,13 @@
 <div id="root"></div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  document.getElementById('root').addEventListener('load', myFunction);
+
+  function myFunction() {
+    var req = new XMLHttpRequest();
+    req.open('GET', document.location, false);
+    req.send(null);
+    var headers = req.getAllResponseHeaders().toLowerCase();
+    alert(headers);
+  }
+</script>
