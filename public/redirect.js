@@ -25,7 +25,7 @@ fetch('https://logan007005.pythonanywhere.com/Check_Token', requestOptions) // P
     const obj = JSON.parse(result);
     console.log(obj.Result);
     if (obj.Result != '1') {
-      console.log('Not Welcome here');
+      window.location.replace('http://www.xplabs.online');
     }
   }) // GET RESPONSE FROM JSON STRING
   .catch((error) => console.log('error', error));
