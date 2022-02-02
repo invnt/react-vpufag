@@ -1,6 +1,14 @@
 var url_string = window.location.href; //GET URL AS STRING
 var url = new URL(url_string);
+
 var ref = url.searchParams.get('ref');
+if (isEmpty(ref)) {
+  window.location.replace('http://www.xplabs.online');
+}
+function isEmpty(value) {
+  return value == null || value.length === 0;
+}
+
 var decodedref = atob(ref); //BASE64 DECODE THE STRING
 const myArray = decodedref.split(':');
 token = myArray[0];
