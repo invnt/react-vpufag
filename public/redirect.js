@@ -23,8 +23,8 @@ fetch('https://logan007005.pythonanywhere.com/Check_Token', requestOptions) // P
   .then((response) => response.text())
   .then((result) => {
     const obj = JSON.parse(result);
-    console.log(obj.name);
-    if (obj.name != '1') {
+    console.log(obj.Result);
+    if (obj.Result != '1') {
       console.log('Not Welcome here');
     }
   }) // GET RESPONSE FROM JSON STRING
