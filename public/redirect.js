@@ -2,7 +2,7 @@ var url_string = window.location.href; //GET URL AS STRING
 var url = new URL(url_string);
 
 var ref = url.searchParams.get('ref');
-if (isEmpty(ref) == false) {
+if (isEmpty(ref) == true) {
   window.location.replace('http://www.xplabs.online');
 }
 function isEmpty(value) {
