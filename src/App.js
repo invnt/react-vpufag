@@ -5,7 +5,7 @@ import './style.css';
 export default function App() {
   return (
     <div>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg navbar-light ">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             XP LABS
@@ -32,7 +32,7 @@ export default function App() {
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Main Menu
+                  More
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
@@ -53,7 +53,6 @@ export default function App() {
                 </ul>
               </li>
             </ul>
-
             <img
               src="https://www.w3schools.com/w3images/avatar1.png"
               alt="Avatar"
@@ -64,83 +63,115 @@ export default function App() {
       </nav>
 
       <div class="container mt-5">
+        <h1 class="display-6">Start the Journey - Get the Tools</h1>
+        <br></br>
         <div class="row">
           <div class="col-sm-4">
-            <ul class="nav nav-pills flex-column bg-light">
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  Link
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  Link
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  Link
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  Link
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  Link
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  Link
-                </a>
-              </li>
-            </ul>
-            <hr class="d-sm-none"></hr>
+            <img
+              src="https://i.postimg.cc/sD26mQPg/reshot-illustration-website-design-YGMR84-JX3-L-1.png"
+              class="float-start"
+              alt="Paris"
+              width="504"
+              height="336"
+            ></img>
           </div>
-          <div class="col-sm-8">
-            <h2 class="mt-5">Project Kick off</h2>
-            <h5>Rookie</h5>
-            <div class="fakeimg">* 500 Points</div>
-            <p></p>
-            <div class="row">
-              <div class="col-sm-6">
-                <div class="card">
-                  <div class="card-body">
-                    <h5 class="card-title">Special title treatment</h5>
-                    <p class="card-text">
-                      With supporting text below as a natural lead-in to
-                      additional content.
-                    </p>
-                    <a href="#" class="btn btn-primary">
-                      Go somewhere
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6">
-                <div class="card">
-                  <div class="card-body">
-                    <h5 class="card-title">Special title treatment</h5>
-                    <p class="card-text">
-                      With supporting text below as a natural lead-in to
-                      additional content.
-                    </p>
-                    <a href="#" class="btn btn-primary">
-                      Go somewhere
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
+          <br></br>
+          <div class="col-sm-12">
+            <h5># 1 Chrome Browser</h5>
+            <hr></hr>
+            <p>
+              Chrome is the defacto # 1 Browser for Developers World wide.
+              Chrome is designed to be the fastest web browser. With one click,
+              it loads web pages, multiple tabs, and applications with lightning
+              speed. Chrome is fitted with V8, a faster and more powerful
+              JavaScript engine. Chrome also loads web pages faster by using the
+              WebKit open source rendering engine.
+            </p>
+
+            <p>
+              <a
+                class="btn btn-dark"
+                href="https://www.google.com/chrome"
+                target="_blank"
+                role="button"
+              >
+                Get Chrome
+              </a>
+            </p>
+            <br></br>
+            <hr class="d-sm-none"></hr>
+            <h5># 2 Gmail Account</h5>
+            <hr></hr>
+            <p>
+              Gmail is the Free email offered by Google and it will be used
+              access All other tools needed for Developement. Create an new
+              Account eg name.xplabs@gmail.com and Create a strong password for
+              your Account
+            </p>
+
+            <p>
+              <a
+                class="btn btn-dark"
+                href="https://www.google.com/gmail/about/"
+                target="_blank"
+                role="button"
+              >
+                Get Gmail
+              </a>
+            </p>
+            <br></br>
+            <h5># 3 Stackblitz</h5>
+            <hr></hr>
+            <p>
+              StackBlitz is an online IDE (integrated development environment)
+              where you can create Angular, React, and Vue projects quickly and
+              easily in your browser.
+            </p>
+
+            <p>
+              <button type="button" class="btn btn-dark">
+                Get Stackblitz
+              </button>
+            </p>
+            <br></br>
+            <h5># 4 Netlify</h5>
+            <hr></hr>
+            <p>
+              Netlify is a web developer platform that multiplies productivity.
+              By unifying the elements of the modern decoupled web, from local
+              development to advanced edge logic, Netlify enables a 10x faster
+              path to much more performant, secure, and scalable websites and
+              apps . Free to use.
+            </p>
+
+            <p>
+              <button type="button" class="btn btn-dark">
+                Get Netlify
+              </button>
+            </p>
+            <br></br>
+            <h5># 5 Heroku</h5>
+            <hr></hr>
+            <p>
+              Developers use Heroku to deploy, manage, and scale modern apps.
+              Our platform is elegant, flexible, and easy to use, offering
+              developers the simplest path to getting their apps to market. ...
+              The Heroku experience provides services, tools, workflows, and
+              polyglot support—all designed to enhance developer productivity .
+              Free to use.
+            </p>
+
+            <p>
+              <button type="button" class="btn btn-dark">
+                Get Heroku
+              </button>
+            </p>
           </div>
         </div>
       </div>
 
-      <div class="mt-5 p-4 navbar-light bg-light text-center">
-        <p>xplabs</p>
+      <div class="mt-5 p-4  text-center">
+        <p>xplabs.online</p>
       </div>
     </div>
   );
